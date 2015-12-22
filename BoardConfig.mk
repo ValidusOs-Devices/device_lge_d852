@@ -29,16 +29,16 @@ TARGET_KERNEL_CONFIG := cyanogenmod_d852_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Kernel Toolchain
-+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
-+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-+# Rom Toolchain
-+TARGET_GCC_VERSION_EXP := 4.9-uber
-+# Optimizations
-+CLANG_O3 := false
-+STRICT_ALIASING := false
-+KRAIT_TUNINGS := false
-+GRAPHITE_OPTS := false
-+ENABLE_GCCONLY := false
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-uber
+# Optimizations
+CLANG_O3 := false
+STRICT_ALIASING := false
+KRAIT_TUNINGS := false
+GRAPHITE_OPTS := false
+ENABLE_GCCONLY := false
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
