@@ -29,8 +29,8 @@ TARGET_KERNEL_CONFIG := coocoo_d852_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9-uber/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Optimizations
 CLANG_O3 := true
