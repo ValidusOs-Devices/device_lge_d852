@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
     libwcnss_qmi \
     wcnss_service
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
+
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \
