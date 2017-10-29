@@ -24,6 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := g3,d852
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d852/bluetooth
+BOARD_CUSTOM_BT_CONFIG := device/lge/d850/bluetooth/vnd_g3.txt
 
 # Kernel
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
